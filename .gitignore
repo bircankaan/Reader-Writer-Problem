@@ -1,24 +1,33 @@
-# Compiled class file
+# --- Java Class Files ---
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# --- Package Files ---
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# --- Virtual Machine Crash Logs ---
 hs_err_pid*
 replay_pid*
+
+# --- IDE Specific Files (IntelliJ IDEA) ---
+.idea/
+*.iml
+*.iws
+out/
+
+# --- IDE Specific Files (Eclipse) ---
+.classpath
+.project
+.settings/
+bin/
+
+# --- IDE Specific Files (VS Code) ---
+.vscode/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
